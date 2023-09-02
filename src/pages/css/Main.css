@@ -1,0 +1,65 @@
+/* OngletAlbum - Player */
+#GeneralPlayer{
+    /* z-index: 50; */
+    /* position: absolute; */
+}
+
+#AlbumSongs{
+    margin: 1.9% auto;
+    overflow: scroll;
+    height: calc(100% - 50px);
+}
+
+.Players{
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    margin-top: 0%;
+    margin-left: 5%;
+    padding-bottom: 5px;
+    /* margin-left: auto; */
+    /* margin-left: 35px; */
+    /* background-color: whitesmoke; */
+    /* border: whitesmoke 1px solid; */
+    /* color: gold; */
+    color: darkgoldenrod;
+    /* color: black; */
+    opacity: 0.9;
+    /* text-shadow: 0px black solid; */
+    /* width: 100%; height: 55px; */
+    text-align: center;
+    /* text-align: justify; */
+    /* vertical-align: middle; */
+    /* vertical-align: top; */
+    animation: CouleurTitre 3s ease-in-out infinite;
+}
+
+.Players span {
+    /* overflow: scroll; */
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    margin-bottom: 1%;
+    /* padding-bottom: 1%; */
+}
+
+@keyframes CouleurTitre {
+    0% { color: black; }
+    50% { color: darkgoldenrod; }
+    100% { color: black; }
+}
+
+/* CRUDS */
+/* #Create{
+    background-color: green;
+} */
+
+/* Admin */
+#Administration{
+    /* z-index: 50; */
+    position: fixed;
+    /* cursor: pointer; */
+    top: 34%; left: 20.5%;
+    width: 60%; height: 40%;
+    background: black;
+    background: rgba(211, 211, 211, 0.7);
+    /* -webkit-filter: none !important; */
+}

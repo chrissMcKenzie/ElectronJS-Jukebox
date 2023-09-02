@@ -1,0 +1,19 @@
+{
+  "name": "junkbox",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "chrissMcKenzie",
+  "license": "MIT",
+  "description": "Jukebox ? More like JUNKbox am I right ? ^^",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w better-sqlite3"
+  },
+  "devDependencies": {
+    "electron": "^24.1.2",
+    "electron-rebuild": "^3.2.9"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.3.0"
+  }
+}
